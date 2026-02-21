@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "insight": "[全市场] sharpe | psr 产出 5 只，首选 510300 (96.3). | Meta: {\"mode\":\"psr\",\"confidence\":0.95,\"effective\":0.95,\"fallback\":null,\"passed\":12,\"before\":86}",
+  "data": {
+    "type": "EtfCandidateList",
+    "items": [
+      {
+        "symbol": "510300",
+        "score": 96.3,
+        "reason": "夏普 2.15 | PSR 0.97 | pct 96.3 | win=20",
+        "source_skill": "quantitative_sniper",
+        "extra": {
+          "strategy": "sharpe",
+          "window": 20,
+          "liquidity_filter": "amount_latest",
+          "threshold_mode": "psr",
+          "threshold_meta": {
+            "mode": "psr",
+            "confidence": 0.95,
+            "effective": 0.95,
+            "fallback": null,
+            "passed": 12,
+            "before": 86
+          },
+          "universe_size": null,
+          "score_scale": "percentile_0_100",
+          "sharpe_raw": 2.15,
+          "psr": 0.97,
+          "sharpe_adj": 2.09,
+          "sharpe_pct": 96.3
+        }
+      }
+    ],
+    "meta": {
+      "strategy": "sharpe",
+      "window": 20,
+      "top_k": 1,
+      "universe_size": null,
+      "liquidity_filter": "amount_latest",
+      "threshold_mode": "psr",
+      "threshold_meta": {
+        "mode": "psr",
+        "confidence": 0.95,
+        "effective": 0.95,
+        "fallback": null,
+        "passed": 12,
+        "before": 86
+      },
+      "score_scale": "percentile_0_100"
+    }
+  }
+}

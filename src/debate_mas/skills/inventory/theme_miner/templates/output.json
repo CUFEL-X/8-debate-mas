@@ -1,0 +1,14 @@
+{
+  "mode": "ontology_mapping",
+  "candidates": [
+    {
+      "symbol": "512480",
+      "score": 45.0,
+      "reason": "主题:半导体(w=1.2) | 命名命中:2项 | 证据:支持集成电路产业发展... | 政策强度:5.0",
+      "extra": {
+        "theme": "半导体",
+        "policy_docs": 3
+      }
+    }
+  ]
+}

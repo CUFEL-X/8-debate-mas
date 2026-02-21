@@ -1,0 +1,35 @@
+# =========================
+# Python build / cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+wheels/
+.eggs/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+
+# =========================
+# Secrets / local env files
+# =========================
+.env
+.env.*
+*.pem
+*.key
+
+# =========================
+# OS / editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
